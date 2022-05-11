@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  background: #ffffff;
+}
+
+h1 {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: #54bed60d;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  margin: 10px;
+  list-style-type: none;
+  list-style: none;
+}
+
+.showcase {
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.latest_work_blue {
+  max-width:100%;
+  max-height:100%;
+  border-radius: 8px;
+}
+
+.latest_work_blue:hover {
+  box-shadow: 3px 3px 2px #54bed694;
+}
+
+.latest_work_red {
+  max-width:100%;
+  max-height:100%;
+  border-radius: 8px;
+}
+
+.latest_work_red:hover {
+  box-shadow: 3px 3px 2px #f21e1ec0;
+}
+
+.showcase:hover {
+  color: #54bed694;
+}
+
+.contact {
+  font-family: 'Poppins', sans-serif;
+}
+
+a.contact {
+  color: #fff;
+  background-color: #54BED6;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  box-shadow: 3px 3px 2px #07fcfc3d;
+  font-weight: bold
+}
+
+a.contact:hover {
+  background-color: #f2ce05fd;
+  box-shadow: 3px 3px 2px #fbe777b7;
+}
+
+#profile_pic {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px 1px #00000099;
+}
+
+.social {
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+}
+
+.social:hover {
+  color: #f2ce05fd;
+}
